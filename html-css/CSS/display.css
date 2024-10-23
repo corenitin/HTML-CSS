@@ -1,0 +1,12 @@
+div{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+span{
+    background-color: rgb(255, 115, 0);
+    width: 100px;
+    height: 100px;
+    display: block;
+}

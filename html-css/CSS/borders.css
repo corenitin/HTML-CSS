@@ -1,0 +1,15 @@
+h1 {
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: rgb(244, 0, 81); */
+    border: 2px solid rgb(249, 1, 84);
+    border-radius: 4px;
+}
+
+p {
+    border-top: 2px solid rgb(4, 241, 4);
+    border-bottom: 2px solid yellow;
+    border-left: 2px dotted orange;
+    border-right: 2px double blue;
+    border-radius: 6px;
+}

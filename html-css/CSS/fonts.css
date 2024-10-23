@@ -1,0 +1,22 @@
+@font-face {
+    font-family:"Roboto-regular" ;
+    src: url(CSS\Fonts\Roboto\Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "Opansans-regular";
+    src: url(CSS\Fonts\Open_Sans\static\OpenSans_SemiCondensed-Regular.ttf);
+}
+
+
+h1 {
+    font-family: "Roboto-regular", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Open Sans",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: oblique;
+}

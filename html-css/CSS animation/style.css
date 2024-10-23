@@ -1,0 +1,104 @@
+body {
+    background: #000;
+}
+
+#box1 {
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+    text-align: center;
+    font-size: 8em;
+    background-color: #a52a2a;
+    color: aliceblue;
+    animation-name: slideRight;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: ease-out;
+    /* opacity: 0; */
+
+}
+
+
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(300%);
+    }
+}
+
+@keyframes slideRight {
+    to {
+        transform: translateX(300%);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(300%);
+    }
+}
+
+@keyframes slideDown {
+    to {
+        transform: translateY(300%);
+    }
+}
+
+@keyframes rotate {
+    50% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes grow {
+    50% {
+        transform: scale(2, 2);
+    }
+}
+
+@keyframes shrink {
+    50% {
+        transform: scale(.5, .5);
+    }
+}
+
+@keyframes colorchange {
+    0% {
+        background-color: #fb0303;
+    }
+
+    20% {
+        background-color: #f67206;
+    }
+
+    40% {
+        background-color: #f4e508;
+    }
+
+    60% {
+        background-color: #2ff407;
+    }
+
+    80% {
+        background-color: #0808f0;
+    }
+
+    100% {
+        background-color: #e808f4;
+    }
+}
+
+@keyframes fade {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes glow {
+    100% {
+        box-shadow: 0px 0px 50px rgb(252, 252, 252);
+    }
+
+}
